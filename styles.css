@@ -1,0 +1,153 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 35px;
+  margin: 1em;
+  margin: 20px 10px;
+  margin: 2 em 2.5 em 1.75 em;
+  border: yellow;
+  background-image:
+    linear-gradient(to left, red 50%, red 75%);
+  font-family: Arial, ;
+  font-size: 100%;
+  width: 80%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+#sflex {
+  display: flex;
+}
+
+#sgrid {
+  display: grid;
+}
+
+p {
+  text-align: center;
+  color: #81d117;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  margin: 5px;
+}
+
+li a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/* the styles for the type selectors */
+
+
+
+article,
+aside,
+h1,
+h2,
+h3,
+
+
+
+article,
+aside {
+  margin-bottom: 1em;
+}
+
+
+
+
+img {
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: .5em;
+}
+
+#mlb {
+  font-size: xxx-large;
+}
+
+#hdr {
+  display: block;
+  text-align: center;
+}
+
+
+/*The purpose of this code is to have type selectors for the website.*/
+
+@media only screen and (max-width: 1600px) {
+  #sflex {
+    flex-direction: row;
+  }
+
+  .flex {
+    width: 20%;
+    float: right;
+  }
+
+  #sgrid {
+    grid-auto-flow: column;
+  }
+
+  .grid {
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #sflex {
+    flex-direction: column;
+  }
+
+  .flex {
+    width: 90%;
+    float: right;
+  }
+
+  #sgrid {
+    grid-auto-flow: row;
+  }
+
+  .grid {
+  margin: 15px;
+}
+}
+
+@media only screen and (min-width:0) and (max-width: 500px) {
+  .flex {
+    width: 100%;
+    float: left;
+  }
+
+  .grid {
+   margin: 5px;
+  }
+}
+/*The purpose of this code is to have media queries to make the images be able to be scaled*/
