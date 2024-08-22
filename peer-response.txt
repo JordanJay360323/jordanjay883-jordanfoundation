@@ -1,0 +1,2 @@
+I recommend that you make two additional copies of your index.html page and title each to indicate what your additional two pages would be (“about.html” and “world_goals.html” for instance?) Then you change the <title> text to reflect the proper page for each page, and then implement a consistent navigation bar that allows you to go from any one page to any other page and back using the navigation bar.  After that you could work on the individual pages.
+ Have the navigation menu at the top of the page.
